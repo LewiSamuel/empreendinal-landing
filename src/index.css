@@ -7,7 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'sifonn';
+  src:  url('sifonn_pro-webfont.woff2') format('woff2'),
+        url('sifonn_pro-webfont.woff') format('woff');
+}
+
+.font-sifonn{
+  font-family: 'sifonn';
+}
+
+.responsive-img{
+  width: 90%;
+  margin: auto;
+}
+
+.font-size-1{
+  font-size: 1.3em;
+}
+
+.spacing-v{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
