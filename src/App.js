@@ -15,23 +15,23 @@ function App() {
         <section className="container">
         <div className="nav-wrapper">
           <a href="#" className="brand-logo a-brand-logo">
-            <b className="font-sifonn">emprendinnal</b>
+            <b className="font-sifonn">emprendennial</b>
             <small>asesores en red</small>
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
               <a href="#!">
-                <img src="insta-logo.png" alt="insta logo" className="icon-social"/>
+                <img src="022-instagram.svg" alt="insta logo" className="icon-social"/>
               </a>
             </li>
             <li>
               <a href="#!">
-                <img src="face-logo.png" alt="face logo" className="icon-social"/>
+                <img src="014-facebook.svg" alt="face logo" className="icon-social"/>
               </a>
             </li>
             <li>
               <a href="#!">
-                <img src="youtube-logo.png" alt="youtube logo" className="icon-social"/>
+                <img src="049-youtube.svg" alt="youtube logo" className="icon-social"/>
               </a>
             </li>
           </ul>
@@ -48,7 +48,7 @@ function App() {
           </div>
           <div className="col s12 m6">
             <p className="font-size-1">
-            Somos emprendennial una red de consultores especializados en guiar a emprendedores jóvenes con sus proyectos para que puedan transformarlos en negocios exitosos. 
+            Somos una red de consultores especializados en guiar a emprendedores jóvenes con sus proyectos para que puedan transformarlos en negocios exitosos. 
             </p>
             <p className="font-size-1">
             Ofrecemos contenidos y capacitaciones gratuitas y también asesorías personalizadas con un equipo interdisciplinario de profesionales distribuido en diferentes puntos de Iberoamérica.
@@ -92,8 +92,7 @@ function App() {
             <div class="row">
               <div class="col s12 m6 offset-m3 center-align">
                 <h5 class="grey-text font-sifonn">emprendennial</h5>
-                <p class="grey-text">somos una comunidad de emprendedores 
-                jóvenes destinada a impactar positivamente a nivel social, 
+                <p class="grey-text">somos una comunidad destinada a impactar positivamente a nivel social, 
                 económico y ambiental con cada startup de la red.</p>
               </div>
             </div>
