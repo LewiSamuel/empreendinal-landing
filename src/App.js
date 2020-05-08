@@ -14,9 +14,10 @@ function App() {
       <nav className="transparent z-depth-0">
         <section className="container">
         <div className="nav-wrapper">
-          <a href="#" className="brand-logo a-brand-logo">
-            <b className="font-sifonn">emprendennial</b>
-            <small>asesores en red</small>
+          <a href="#!" className="brand-logo a-brand-logo">
+            {/* <b className="font-sifonn">emprendennial</b>
+            <small>asesores en red</small> */}
+            <img src="emprendennial-logo.jpeg" alt="empreendennial" className="icon-logo" height="90"/>
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
@@ -81,7 +82,7 @@ function App() {
             </p>
           </div>
           <div className="col s12 m6">
-          <img src="/bot-image.png" alt="bot image" className="responsive-img"/>
+          <img src="/bot-image.png" alt="bot " className="responsive-img"/>
           </div>
         </section>
       </article>
