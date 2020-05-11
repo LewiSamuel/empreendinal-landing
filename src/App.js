@@ -63,13 +63,29 @@ function App() {
       <article className="container spacing-v">
         <section className="row">
           <div className="col s12 m6">
+
+          
+
+
+  <div id="modal1" className="modal modal-fixed-footer">
+    <div className="modal-content">
+      <div className="row">
+            <iframe title="form" src="https://arrobalewi.typeform.com/to/Nlfe2K" frameborder="0" Style="width: 100%;height: 300px;"></iframe>
+      </div>
+    </div>
+    <div className="modal-footer">
+      <a href="#!" className="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+    </div>
+  </div>
+
+
             <p className="spacing-v">
               <h4>
                 <b className="color-deafult">
                   Tengo un proyecto o emprendimiento
                 </b>
               </h4>
-              <a href="#!" className="button-click-here">¡Quisiera ser asesorado!</a>
+              <a href="#modal1" className="modal-trigger button-click-here">¡Quisiera ser asesorado!</a>
             </p>
 
             <p className="spacing-v">
@@ -78,7 +94,7 @@ function App() {
                   Quisiera colaborar con emprendedores
                 </b>
               </h4>
-              <a href="#!" className="button-click-here">¡Me gustaría ser asesor!</a>
+              <a href="#modal1" className="modal-trigger button-click-here">¡Me gustaría ser asesor!</a>
             </p>
           </div>
           <div className="col s12 m6">
@@ -88,18 +104,18 @@ function App() {
       </article>
 
 
-      <footer class="page-footer grey lighten-5">
-          <div class="container">
-            <div class="row">
-              <div class="col s12 m6 offset-m3 center-align">
-                <h5 class="grey-text font-sifonn">emprendennial</h5>
-                <p class="grey-text">somos una comunidad destinada a impactar positivamente a nivel social, 
+      <footer className="page-footer grey lighten-5">
+          <div className="container">
+            <div className="row">
+              <div className="col s12 m6 offset-m3 center-align">
+                <h5 className="grey-text font-sifonn">emprendennial</h5>
+                <p className="grey-text">somos una comunidad destinada a impactar positivamente a nivel social, 
                 económico y ambiental con cada startup de la red.</p>
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container grey-text">
+          <div className="footer-copyright">
+            <div className="container grey-text">
             © 2020 Copyright
             </div>
           </div>
