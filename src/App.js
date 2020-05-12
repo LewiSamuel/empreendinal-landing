@@ -40,13 +40,13 @@ function App() {
         </section>
       </nav>
 
-      <section class="row hide-on-large-only" Style="
+      <section className="row hide-on-large-only" Style="
     margin-top: 22px;
 ">
-  <div class="col s12 center-align">
-  <img Style="display: inline;/* margin-left: 10px; */" src="022-instagram.svg" alt="insta logo" class="icon-social" />
-  <img Style="display: inline;margin-left: 15px;margin-right: 15px;" src="014-facebook.svg" alt="face logo" class="icon-social" />
-  <img Style="display: inline" src="049-youtube.svg" alt="youtube logo" class="icon-social" />
+  <div className="col s12 center-align">
+  <img Style="display: inline;/* margin-left: 10px; */" src="022-instagram.svg" alt="insta logo" className="icon-social" />
+  <img Style="display: inline;margin-left: 15px;margin-right: 15px;" src="014-facebook.svg" alt="face logo" className="icon-social" />
+  <img Style="display: inline" src="049-youtube.svg" alt="youtube logo" className="icon-social" />
     </div>
   </section>
 
