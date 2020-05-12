@@ -40,6 +40,16 @@ function App() {
         </section>
       </nav>
 
+      <section class="row hide-on-large-only" Style="
+    margin-top: 22px;
+">
+  <div class="col s12 center-align">
+  <img Style="display: inline;/* margin-left: 10px; */" src="022-instagram.svg" alt="insta logo" class="icon-social" />
+  <img Style="display: inline;margin-left: 15px;margin-right: 15px;" src="014-facebook.svg" alt="face logo" class="icon-social" />
+  <img Style="display: inline" src="049-youtube.svg" alt="youtube logo" class="icon-social" />
+    </div>
+  </section>
+
 
       <header className="App-header spacing-v">
         <article className="container">
@@ -47,7 +57,7 @@ function App() {
           <div className="col s12 m6">
           <img src="/top-image.png" alt="youtube logo" className="responsive-img"/>
           </div>
-          <div className="col s12 m6">
+          <div className="col s12 m6" style={{textAlign: "justify"}}>
             <p className="font-size-1">
             Somos una red de consultores especializados en guiar a emprendedores jóvenes con sus proyectos para que puedan transformarlos en negocios exitosos. 
             </p>
