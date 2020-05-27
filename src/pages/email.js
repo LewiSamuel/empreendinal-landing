@@ -38,7 +38,7 @@ export default function Email(){
                 console.log(data)
             }
         });
-        api.post().then(res => console.log(res)).catch(err => console.log(err));
+        api.then(res => console.log(res)).catch(err => console.log(err));
     },[]);
 
     return <h1>TESTE 2</h1>
