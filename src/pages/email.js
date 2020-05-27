@@ -11,8 +11,9 @@ export default function Email(){
     useEffect(() => {
 
         var SENDGRID_API_KEY='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';
-        const api = axios.create({
+        const api = axios({
             url: 'https://api.sendgrid.com/v3/mail/send',
+            method: "POST",
             data: {
                 "personalizations": [{
                         "to":
@@ -26,6 +27,10 @@ export default function Email(){
                     "type": "text/plain",
                     "value": "and easy to do anywhere, even with cURL"}]
                 },
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${SENDGRID_API_KEY}`
+            },
             beforeSend: function(xhr) {
                  xhr.setRequestHeader("Content-Type", "application/json");
                  xhr.setRequestHeader("Authorization", `Bearer ${SENDGRID_API_KEY}`);
@@ -36,5 +41,5 @@ export default function Email(){
         api.post().then(res => console.log(res)).catch(err => console.log(err));
     },[]);
 
-    return <h1>TESTE</h1>
+    return <h1>TESTE 2</h1>
 }
