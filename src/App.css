@@ -8,6 +8,11 @@
   margin-top: -40px;
 }
 
+img.icon-logo {
+  height: 55px;
+  margin-top: 12px;
+}
+
 .color-deafult{
   color: #1f4fe5 !important;
 }
