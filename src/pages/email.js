@@ -9,6 +9,8 @@ export default function Email(){
     // --data '{"personalizations": [{"to": [{"email": "test@example.com"}]}],"from": {"email": "test@example.com"},"subject": "Sending with SendGrid is Fun","content": [{"type": "text/plain", "value": "and easy to do anywhere, even with cURL"}]}'
 
     useEffect(() => {
+
+        var SENDGRID_API_KEY='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';
         const api = axios.create({
             url: 'https://api.sendgrid.com/v3/mail/send',
             data: {
@@ -31,7 +33,6 @@ export default function Email(){
                 console.log(data)
             }
         });
-        var SENDGRID_API_KEY='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';
         api.post().then(res => console.log(res)).catch(err => console.log(err));
     },[]);
 
