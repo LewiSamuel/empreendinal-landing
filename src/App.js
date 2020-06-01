@@ -21,17 +21,17 @@ function App() {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a href="#!">
+              <a target="_blank" href="https://www.instagram.com/emprendennial/">
                 <img src="022-instagram.svg" alt="insta logo" className="icon-social"/>
               </a>
             </li>
             <li>
-              <a href="#!">
+              <a target="_blank" href="https://www.facebook.com/emprendennial">
                 <img src="014-facebook.svg" alt="face logo" className="icon-social"/>
               </a>
             </li>
             <li>
-              <a href="#!">
+              <a target="_blank" href="https://www.youtube.com/results?search_query=emprendennial">
                 <img src="049-youtube.svg" alt="youtube logo" className="icon-social"/>
               </a>
             </li>

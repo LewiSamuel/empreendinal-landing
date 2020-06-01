@@ -11,7 +11,7 @@ export default function Email(){
     useEffect(() => {
 
         var SENDGRID_API_KEY='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';
-        const api = axios({
+        const = axios({
             url: 'https://api.sendgrid.com/v3/mail/send',
             method: "POST",
             data: {
