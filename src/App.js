@@ -21,17 +21,17 @@ function App() {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a target="_blank" href="https://www.instagram.com/emprendennial/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emprendennial/">
                 <img src="022-instagram.svg" alt="insta logo" className="icon-social"/>
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.facebook.com/emprendennial">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/emprendennial">
                 <img src="014-facebook.svg" alt="face logo" className="icon-social"/>
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.youtube.com/results?search_query=emprendennial">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCgNnYgTlwyg1AmCp1gW_KyQ">
                 <img src="049-youtube.svg" alt="youtube logo" className="icon-social"/>
               </a>
             </li>
@@ -59,10 +59,13 @@ function App() {
           </div>
           <div className="col s12 m6" style={{textAlign: "justify"}}>
             <p className="font-size-1">
-            Somos una red de consultores especializados en guiar a emprendedores jóvenes con sus proyectos para que puedan transformarlos en negocios exitosos. 
+            Nuestro propósito es ayudar a empresas y a emprendedores a transformarse para crecer.
             </p>
             <p className="font-size-1">
-            Ofrecemos contenidos y capacitaciones gratuitas y también asesorías personalizadas con un equipo interdisciplinario de profesionales distribuido en diferentes puntos de Iberoamérica.
+            Contamos con una red de asesores jóvenes que trabajan de forma remota en Latinoamérica.
+            </p>
+            <p className="font-size-1">
+            Queremos impactar positivamente en la sociedad y el medio ambiente con nuestros servicios.
             </p>
           </div>
         </section>
@@ -71,6 +74,14 @@ function App() {
 
 
       <article className="container spacing-v">
+      <section className="row">
+        <div className="col s12 m6 offset-m3 center-align breack-text">
+          <h4>
+            Ofrecemos <b>asesorías personalizadas sin costo</b> para encontrar las soluciones que su negocio necesita.
+          </h4>
+        </div>
+      </section>
+
         <section className="row">
           <div className="col s12 m6">
 
@@ -118,9 +129,8 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col s12 m6 offset-m3 center-align">
-                <h5 className="grey-text font-sifonn">emprendennial</h5>
-                <p className="grey-text">somos una comunidad destinada a impactar positivamente a nivel social, 
-                económico y ambiental con cada startup de la red.</p>
+                <h5 className="grey-text darken-4 font-sifonn">emprendennial</h5>
+                <p className="grey-text darken-4">Negocios sostenibles, globales y adaptados a la era digital</p>
               </div>
             </div>
           </div>

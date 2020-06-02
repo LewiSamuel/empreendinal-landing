@@ -31,3 +31,14 @@ img.icon-logo {
   color: #23395B;
   padding: 10px 15px;
 }
+
+
+
+.breack-text{
+  color: #3157a3;
+  border-top: 1px solid #73bb51;
+  border-bottom: 1px solid #73bb51;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 33px;
+}
