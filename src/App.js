@@ -44,9 +44,19 @@ function App() {
     margin-top: 22px;
 ">
   <div className="col s12 center-align">
-  <img Style="display: inline;/* margin-left: 10px; */" src="022-instagram.svg" alt="insta logo" className="icon-social" />
-  <img Style="display: inline;margin-left: 15px;margin-right: 15px;" src="014-facebook.svg" alt="face logo" className="icon-social" />
-  <img Style="display: inline" src="049-youtube.svg" alt="youtube logo" className="icon-social" />
+
+    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emprendennial/">
+    <img Style="display: inline;/* margin-left: 10px; */" src="022-instagram.svg" alt="insta logo" className="icon-social" />
+    </a>
+
+    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/emprendennial">
+    <img Style="display: inline;margin-left: 15px;margin-right: 15px;" src="014-facebook.svg" alt="face logo" className="icon-social" />
+    </a>
+
+    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCgNnYgTlwyg1AmCp1gW_KyQ">
+    <img Style="display: inline" src="049-youtube.svg" alt="youtube logo" className="icon-social" />
+    </a>
+
     </div>
   </section>
 
@@ -103,24 +113,24 @@ function App() {
             <div className="spacing-v">
               <h4>
                 <b className="color-deafult">
-                  Tengo un proyecto o emprendimiento
+                  ¡Quiero saber más!
                 </b>
               </h4>
               <a
               onClick={() => {window.open("https://forms.gle/zSQcbhTygWNhWwJs6", "", "width=600,height=800")}}
               href="#!"
-              className="modal-trigger button-click-here">¡Quisiera ser asesorado!</a>
+              className="modal-trigger button-click-here">Tengo una empresa</a>
             </div>
 
             <div className="spacing-v">
               <h4>
                 <b className="color-deafult">
-                  Quisiera colaborar con emprendedores
+                  ¡Quiero trabajar!
                 </b>
               </h4>
               <a
               onClick={() => {window.open("https://forms.gle/KzHC4ta6JiYs5VPq5 ", "", "width=600,height=800")}}
-               href="#!" className="modal-trigger button-click-here">¡Me gustaría ser asesor!</a>
+               href="#!" className="modal-trigger button-click-here">Me gustaría ser asesor</a>
             </div>
           </div>
           <div className="col s12 m6">
@@ -134,7 +144,7 @@ function App() {
       <section className="row">
         <div className="col s12 center-align spacing-v">
           <a onClick={() => {window.open("https://forms.gle/fQN1GietpJgAcQgv9", "", "width=600,height=800")}}
-               href="#!" className="modal-trigger button-click-here">¡Envianos un mensaje!</a>
+               href="#!" className="modal-trigger button-click-here">¡Quiero hacer una consulta general!</a>
         </div>
       </section>
 
