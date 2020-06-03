@@ -88,41 +88,55 @@ function App() {
           
 
 
-  <div id="modal1" className="modal modal-fixed-footer">
+  {/* <div id="!" className="modal modal-fixed-footer">
     <div className="modal-content">
       <div className="row">
-            <iframe title="form" src="https://arrobalewi.typeform.com/to/Nlfe2K" frameborder="0" Style="width: 100%;height: 300px;"></iframe>
+            <iframe id="modal-iframe" src="https://forms.gle/zSQcbhTygWNhWwJs6/?output=embed" title="form" frameborder="0" Style="width: 100%;height: 300px;"></iframe>
       </div>
     </div>
     <div className="modal-footer">
       <a href="#!" className="modal-close waves-effect waves-green btn-flat">Cerrar</a>
     </div>
-  </div>
+  </div> */}
 
 
-            <p className="spacing-v">
+            <div className="spacing-v">
               <h4>
                 <b className="color-deafult">
                   Tengo un proyecto o emprendimiento
                 </b>
               </h4>
-              <a href="#modal1" className="modal-trigger button-click-here">¡Quisiera ser asesorado!</a>
-            </p>
+              <a
+              onClick={() => {window.open("https://forms.gle/zSQcbhTygWNhWwJs6", "", "width=600,height=800")}}
+              href="#!"
+              className="modal-trigger button-click-here">¡Quisiera ser asesorado!</a>
+            </div>
 
-            <p className="spacing-v">
+            <div className="spacing-v">
               <h4>
                 <b className="color-deafult">
                   Quisiera colaborar con emprendedores
                 </b>
               </h4>
-              <a href="#modal1" className="modal-trigger button-click-here">¡Me gustaría ser asesor!</a>
-            </p>
+              <a
+              onClick={() => {window.open("https://forms.gle/KzHC4ta6JiYs5VPq5 ", "", "width=600,height=800")}}
+               href="#!" className="modal-trigger button-click-here">¡Me gustaría ser asesor!</a>
+            </div>
           </div>
           <div className="col s12 m6">
           <img src="/bot-image.png" alt="bot " className="responsive-img"/>
           </div>
         </section>
       </article>
+
+
+
+      <section className="row">
+        <div className="col s12 center-align spacing-v">
+          <a onClick={() => {window.open("https://forms.gle/fQN1GietpJgAcQgv9", "", "width=600,height=800")}}
+               href="#!" className="modal-trigger button-click-here">¡Envianos un mensaje!</a>
+        </div>
+      </section>
 
 
       <footer className="page-footer grey lighten-5">
