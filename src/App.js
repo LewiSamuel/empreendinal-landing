@@ -144,7 +144,7 @@ function App() {
       <section className="row">
         <div className="col s12 center-align spacing-v">
           <a onClick={() => {window.open("https://forms.gle/fQN1GietpJgAcQgv9", "", "width=600,height=800")}}
-               href="#!" className="modal-trigger button-click-here">¡Quiero hacer una consulta general!</a>
+               href="#!" className="modal-trigger button-click-here">¡Hacer una consulta general!</a>
         </div>
       </section>
 
