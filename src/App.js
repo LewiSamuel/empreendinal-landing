@@ -17,7 +17,7 @@ function App() {
           <a href="#!" className="brand-logo a-brand-logo">
             {/* <b className="font-sifonn">emprendennial</b>
             <small>asesores en red</small> */}
-            <img src="epn-final.png" alt="empreendennial" className="icon-logo"/>
+            <img src="emprendennial-logo.png" alt="empreendennial" className="icon-logo"/>
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
