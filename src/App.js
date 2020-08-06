@@ -160,7 +160,7 @@ function App() {
             <div className="row">
               <div className="col s12 m6 offset-m3 center-align">
                 <h5 className="grey-text darken-4 font-sifonn">emprendennial</h5>
-                <p className="grey-text darken-4">Negocios sostenibles, globales y adaptados a la era digital</p>
+                {/* <p className="grey-text darken-4">Negocios sostenibles, globales y adaptados a la era digital</p> */}
               </div>
             </div>
           </div>
