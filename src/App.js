@@ -69,13 +69,19 @@ function App() {
           </div>
           <div className="col s12 m6" style={{textAlign: "justify"}}>
             <p className="font-size-1">
-            Nuestro propósito es ayudar a empresas y a emprendedores a transformarse para crecer.
+              <b>emprendennial es una plataforma online destinada a facilitar pasantías universitarias internacionales para que los estudiantes puedan trabajar de forma remota contribuyendo con el crecimiento de empresas y emprendedores.</b>
             </p>
             <p className="font-size-1">
-            Contamos con una red de asesores jóvenes que trabajan de forma remota en Latinoamérica.
+            Ofrecemos pasantias que promueven igualdad de oportunidades e inclusión para los jóvenes que apuntan a desarrollarse en un ámbito laboral multicultural. 
             </p>
             <p className="font-size-1">
-            Queremos impactar positivamente en la sociedad y el medio ambiente con nuestros servicios.
+            Favorecemos el crecimiento económico de las empresas y emprendedores a través de una solución accesible para que puedan adaptar sus negocios y optimizar sus procesos a la era digital. Nuestra red de pasantes aportará diversidad y actitud emprendedora a sus equipos. Con el trabajo remoto internacional, se favorece la apertura de mercados y se estimulan metodologías ágiles y colaborativas, aumentando la competitividad.
+            </p>
+            <p className="font-size-1">
+            A través del teletrabajo podemos contribuir positivamente con la naturaleza disminuyendo la contaminación y generando conciencia medioambiental.  
+            </p>
+            <p className="font-size-1">
+            De esta manera nos comprometemos con un triple impacto que contribuya con la generación de valor en nuestro ámbito de influencia.
             </p>
           </div>
         </section>
@@ -87,7 +93,7 @@ function App() {
       <section className="row">
         <div className="col s12 m6 offset-m3 center-align breack-text">
           <h4>
-            Ofrecemos <b>asesorías personalizadas sin costo</b> para encontrar las soluciones que su negocio necesita.
+          Guiados por la innovación, buscamos que quienes participen de nuestra iniciativa sean parte de este cambio del modelo de trabajo tradicional y puedan <b Style="color:#73bb51 !important;">transformarse para crecer.</b>
           </h4>
         </div>
       </section>
@@ -113,24 +119,24 @@ function App() {
             <div className="spacing-v">
               <h4>
                 <b className="color-deafult">
-                  ¡Quiero saber más!
+                  Tengo una empresa
                 </b>
               </h4>
               <a
               onClick={() => {window.open("https://forms.gle/zSQcbhTygWNhWwJs6", "", "width=600,height=800")}}
               href="#!"
-              className="modal-trigger button-click-here">Tengo una empresa</a>
+              className="modal-trigger button-click-here">Busco pasantes</a>
             </div>
 
             <div className="spacing-v">
               <h4>
                 <b className="color-deafult">
-                  ¡Quiero trabajar!
+                  Soy estudiante
                 </b>
               </h4>
               <a
               onClick={() => {window.open("https://forms.gle/KzHC4ta6JiYs5VPq5 ", "", "width=600,height=800")}}
-               href="#!" className="modal-trigger button-click-here">Me gustaría ser asesor</a>
+               href="#!" className="modal-trigger button-click-here">Busco una pasantía</a>
             </div>
           </div>
           <div className="col s12 m6">
@@ -144,7 +150,7 @@ function App() {
       <section className="row">
         <div className="col s12 center-align spacing-v">
           <a onClick={() => {window.open("https://forms.gle/fQN1GietpJgAcQgv9", "", "width=600,height=800")}}
-               href="#!" className="modal-trigger button-click-here">¡Hacer una consulta general!</a>
+               href="#!" className="modal-trigger button-click-here">¡Hacer una consulta!</a>
         </div>
       </section>
 
